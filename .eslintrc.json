@@ -1,0 +1,8 @@
+{
+  "env": { "jest": true },
+  "extends": "standard",
+  "rules": {
+    "no-console": "error",
+    "no-var": "error"
+  }
+}

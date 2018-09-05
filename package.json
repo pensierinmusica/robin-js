@@ -1,0 +1,61 @@
+{
+  "name": "robin-js",
+  "version": "0.0.0",
+  "description": "JavaScript utility to create round-robin pairs from a list of participants",
+  "browser": "dist/index.umd.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "directories": {
+    "test": "test"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "install": "npm run build",
+    "lint": "eslint . --fix",
+    "test": "npm run lint && npm run build && jest",
+    "travis-deploy-once": "travis-deploy-once --pro",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pensierinmusica/robin-js.git"
+  },
+  "keywords": [
+    "pair",
+    "pairs",
+    "pairing",
+    "round robin",
+    "round-robin",
+    "tournament"
+  ],
+  "author": "Alessandro Zanardi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pensierinmusica/robin-js/issues"
+  },
+  "homepage": "https://github.com/pensierinmusica/robin-js#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^5.5.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "husky": "^0.14.3",
+    "jest": "^23.5.0",
+    "rimraf": "^2.6.2",
+    "rollup": "^0.65.1",
+    "semantic-release": "^15.9.12",
+    "travis-deploy-once": "^5.0.7"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {}
+}
