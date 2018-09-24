@@ -1,6 +1,6 @@
 # Robin JS
 
-[![build status](https://img.shields.io/travis/pensierinmusica/robin-js.svg)](https://travis-ci.com/pensierinmusica/robin-js)
+[![build status](https://img.shields.io/travis/com/pensierinmusica/robin-js.svg)](https://travis-ci.com/pensierinmusica/robin-js)
 [![dependencies](https://img.shields.io/david/pensierinmusica/robin-js.svg)](https://www.npmjs.com/package/robin-js)
 [![npm version](https://img.shields.io/npm/v/robin-js.svg)](https://www.npmjs.com/package/robin-js)
 [![license](https://img.shields.io/github/license/pensierinmusica/robin-js.svg)](https://www.npmjs.com/package/robin-js)

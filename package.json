@@ -1,6 +1,6 @@
 {
   "name": "robin-js",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "JavaScript utility to create round-robin pairs from a list of participants",
   "browser": "dist/index.umd.js",
   "main": "dist/index.cjs.js",
