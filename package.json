@@ -12,7 +12,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "rollup -c",
+    "build": "rollup -c ./rollup.config.js",
     "install": "npm run build",
     "lint": "eslint . --fix",
     "test": "npm run lint && npm run build && jest",
