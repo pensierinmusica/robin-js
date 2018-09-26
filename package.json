@@ -1,6 +1,6 @@
 {
   "name": "robin-js",
-  "version": "1.0.4",
+  "version": "0.0.0-development",
   "description": "JavaScript utility to create round-robin pairs from a list of participants",
   "browser": "dist/index.umd.js",
   "main": "dist/index.cjs.js",
@@ -13,7 +13,6 @@
   ],
   "scripts": {
     "build": "rollup -c",
-    "install": "npm run build",
     "lint": "eslint . --fix",
     "test": "npm run lint && npm run build && jest",
     "travis-deploy-once": "travis-deploy-once --pro",
@@ -37,9 +36,6 @@
     "url": "https://github.com/pensierinmusica/robin-js/issues"
   },
   "homepage": "https://github.com/pensierinmusica/robin-js#readme",
-  "dependencies": {
-    "rollup": "^0.66.2"
-  },
   "devDependencies": {
     "cz-conventional-changelog": "^2.1.0",
     "eslint": "^5.5.0",
@@ -50,7 +46,7 @@
     "eslint-plugin-standard": "^4.0.0",
     "husky": "^1.0.0",
     "jest": "^23.5.0",
-    "rimraf": "^2.6.2",
+    "rollup": "^0.66.2",
     "semantic-release": "^15.9.12",
     "travis-deploy-once": "^5.0.7"
   },
